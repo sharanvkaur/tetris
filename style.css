@@ -1,0 +1,57 @@
+html {
+  font-family: 'helvetica neue'
+}
+
+.container {
+  background-color: lightgrey;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+}
+
+.left {
+  background-color: lightgrey;
+}
+
+.grid {
+  padding: 10px;
+  height: 100%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.box{
+  width:20px;
+  height:20px;
+  background-color: white;
+  border: 1px solid dimgrey;
+  float:left;
+  margin: 1px;
+  border-radius: 3px;
+}
+
+.breaker{
+  clear: both;
+}
+
+.right {
+  background-color: silver;
+  border-radius: 20px;
+  padding: 0px 20px;
+  height: 408.18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapped {
+  border: 1px dotted;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: ghostwhite;
+
+}
