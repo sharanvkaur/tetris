@@ -4,7 +4,7 @@ Tetris is a game. It is a fun game. Play it.
 
 ## Live Version
 
-A demo will be available here shortly.
+A demo is available [here](https://sharanvkaur.github.io/wdi-p1-tetris/).
 
 ### Future Improvements
 * Preview of next shape
@@ -17,7 +17,7 @@ A demo will be available here shortly.
 ## Built With
 
 * Basic HTML, CSS and Javascript.
-* [jQuery](http://jquery.com/) - jQuery for example is something you likely used
+* [jQuery](http://jquery.com/)
 
 ## Acknowledgments
 

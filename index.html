@@ -9,26 +9,33 @@
   </head>
 
   <body>
+    <div class="container">
 
-<div class="container">
+      <div class="left">
+        <h1>let's play Tetris!</h1>
+        <div class="grid" id="field"></div>
+      </div>
 
-  <div class="left">
-    <div class="grid" id="field"></div>
-  </div>
+      <div class="right">
+          <div id="status">Get crackin'!</div>
+          <div id="score">Score: 0</div>
+        <div class="wrapped">
+          <div class="text">
+            Swap<br>
+            <small>press shift!</small>
+          </div>
 
-  <div class="right">
-      <div id="status">Get crackin'!</div>
-      <div id="score">Score: 0</div>
-    <div class="wrapped">
-      <div class="text">Swap</div>
-      <div class="preview" id="swappingWeapons"></div>
+          <div class="preview" id="swappingWeapons"></div>
+        </div>
+        <div class="wrapped">
+          <div class="text">
+            Next<br>
+            <small>TODO</small>
+          </div>
+          <div class="preview" id="futureUse"></div>
+        </div>
+      </div>
     </div>
-    <div class="wrapped">
-      <div class="text">Next</div>
-      <div class="preview" id="futureUse"></div>
-    </div>
-  </div>
-</div>
 
     <script>
       startGame();

@@ -1,6 +1,6 @@
 console.log('script.js speaking')
 
-var bgcolor = 'white'
+var bgcolor = 'slategrey'
 var score = 0
 var playing = true
 var shadow = 'inset 0 0 4px #000000'
@@ -264,7 +264,7 @@ function onlyUnique (value, index, self) {
 function makeSwap (type) {
   for (i = 0; i < 4; i++) {
     for (j = 0; j < 3; j++) {
-      document.getElementById(idz(i, j)).style.backgroundColor = 'white'
+      document.getElementById(idz(i, j)).style.backgroundColor = 'slategrey'
       document.getElementById(idz(i, j)).style.boxShadow = 'none'
     }
   }
@@ -397,5 +397,5 @@ timer = setInterval(function () {
     t.update()
     resetTimer()
   }
-}, 300)
+}, 600)
 }
